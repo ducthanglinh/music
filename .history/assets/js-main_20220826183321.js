@@ -1,0 +1,47 @@
+const $ = document.querySelector.bind(document);
+const $$ = document.querySelectorAll.bind(document);
+
+const song = [
+  {
+    name: "Hương Remix",
+    singer: "Văn Mai Hương",
+    path: "./assets/music/huong.mp3",
+    image: "./assets/img/huong.jpg",
+  },
+  {
+    name: "Người lạ thoáng qua Remix",
+    singer: "Đinh Huy Tùng",
+    path: "./assets/music/NLTQ.mp3",
+    image: "./assets/img/NLTQ.jpg",
+  },
+  {
+    name: "Như một người dưng Remix",
+    singer: "Tipo remix",
+    path: "./assets/music/HTG.mp3",
+    image: "./assets/img/HTG.jpeg",
+  },
+  {
+    name: "Cưa là đổ Remix",
+    singer: "Tipo remix",
+    path: "./assets/music/Cưa Là Đổ Remix.mp3",
+    image: "./assets/img/HTG.jpeg",
+  },
+  {
+    name: "Đâu còn đây Orinn Remix",
+    singer: "Tipo remix",
+    path: "./assets/music/Đâu Còn Đây Orinn Remix.mp3",
+    image: "./assets/img/HTG.jpeg",
+  },
+  {
+    name: "Hôm Qua Tôi Đã Khóc Remix",
+    singer: "Tipo remix",
+    path: "./assets/music/Hôm Qua Tôi Đã Khóc Remix.mp3",
+    image: "./assets/img/HTG.jpeg",
+  },
+  {
+    name: "Thay lòng",
+    singer: "DIMZ, TVk, NH4T",
+    path: "./assets/music/Thay long.mp3",
+    image: "./assets/img/thay long.jpg",
+  },
+];
